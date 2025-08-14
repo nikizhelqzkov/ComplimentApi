@@ -1,0 +1,21 @@
+{
+  "name": "compliment-api",
+  "version": "1.0.0",
+  "description": "Random multilingual compliments API (BG/EN)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["compliment", "api", "bulgarian", "english"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
